@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from '../public/images/mainBg.jpg'
+
 
 const MainPage = () => {
   return (
@@ -7,9 +7,9 @@ const MainPage = () => {
       <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover'>
        sidebar
       </section>
-      <section>
+      <section className='mx-auto'>
 
-        <div>
+        <div className=' w-[700px] h-80 bg-[url("../public/images/mainBg.jpg")] bg-cover'>
           Main section
         </div>
 
