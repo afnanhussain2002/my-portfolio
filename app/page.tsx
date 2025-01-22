@@ -9,7 +9,7 @@ const MainPage = () => {
       </section>
       <section className='mx-auto'>
 
-        <div className=' w-[700px] h-80 bg-[url("../public/images/mainBg.jpg")] bg-cover'>
+        <div className=' w-[700px] h-80 bg-[url("../public/images/mainBg.jpg")] bg-cover mt-5'>
           Main section
         </div>
 
