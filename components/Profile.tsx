@@ -14,6 +14,19 @@ const Profile = () => {
       />
       <h3 className="font-bold">Afnan Hussain</h3>
       <p>Full Stack Developer</p>
+
+      <div className="font-bold flex gap-5 text-sm">
+        <div className="mt-5">
+          <p>Residence:</p>
+          <p>City:</p>
+          <p>Age:</p>
+        </div>
+        <div className="text-right mt-5">
+          <p>Bangladesh</p>
+          <p>Sylhet</p>
+          <p>22</p>
+        </div>
+      </div>
     </div>
   );
 };
