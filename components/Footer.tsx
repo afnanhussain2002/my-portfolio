@@ -1,6 +1,6 @@
 import React from 'react'
 import { Linkedin, Github, Facebook } from 'lucide-react';
-
+import x from "../public/images/x.png";
 
 
 const Footer = () => {
