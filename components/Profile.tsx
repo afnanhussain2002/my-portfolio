@@ -15,7 +15,7 @@ const Profile = () => {
       <h3 className="font-bold">Afnan Hussain</h3>
       <p>Full Stack Developer</p>
 
-      <div className="font-bold flex gap-5 text-sm">
+      <div className="font-bold flex gap-5 text-sm border-b-2 p-5">
         <div className="mt-5">
           <p>Residence:</p>
           <p>City:</p>
