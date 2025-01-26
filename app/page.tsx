@@ -8,7 +8,9 @@ const MainPage = () => {
     <main className='flex flex-col md:flex-row'>
       <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover flex flex-col justify-between'>
        <Profile />
+       <div className='mb-5'>
        <Footer/>
+       </div>
       </section>
       <section className='mx-auto'>
 
