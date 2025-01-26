@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div>
-        <div className='flex gap-5'>
+    <div className='flex justify-center'>
+        <div className='flex gap-5 bg-[#076871] p-2 w-52 h-10 rounded items-center justify-center'>
             <Linkedin size={30} className='bg-black p-1 rounded'/>
             <Github size={30} className='bg-black p-1 rounded'/>
             <Facebook size={30} className='bg-black p-1 rounded'/>
