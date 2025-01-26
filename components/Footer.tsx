@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
         <div className='flex gap-5'>
-            <Linkedin size={30} />
+            <Linkedin size={30} className='bg-black p-1 rounded'/>
             <Github size={30} />
             <Facebook size={30} />
             <Image src={x} alt='x' width={30} height={30} />
