@@ -1,8 +1,15 @@
+import Image from 'next/image'
 import React from 'react'
+import linkdin from "../public/images/linkdin.webp";
+
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+        <div>
+           
+        </div>
+    </div>
   )
 }
 

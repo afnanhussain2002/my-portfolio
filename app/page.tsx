@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Profile from '@/components/Profile'
 import React from 'react'
 
@@ -7,6 +8,7 @@ const MainPage = () => {
     <main className='flex flex-col md:flex-row'>
       <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover'>
        <Profile />
+       <Footer/>
       </section>
       <section className='mx-auto'>
 
