@@ -1,6 +1,6 @@
 import { Copy } from 'lucide-react'
 import React, { useState } from 'react'
-
+import animationData from '../data/confetti.json';
 
 const CopyButton = () => {
     const [copied, setCopied] = useState(false);
