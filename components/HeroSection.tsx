@@ -8,7 +8,6 @@ const HeroSection = () => {
             <button className='mt-5 bg-[#076871] p-2 rounded font-bold'>Copy My Email</button>
           </div>
           <div>
-            images
           </div>
         </div>
   )
