@@ -1,6 +1,5 @@
 import React from 'react'
 import TechStack from './TechStack'
-import { Copy } from 'lucide-react';
 import CopyButton from './CopyButton';
 
 const HeroSection = () => {
