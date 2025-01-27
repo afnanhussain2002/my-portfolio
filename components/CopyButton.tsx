@@ -14,6 +14,12 @@ const CopyButton = () => {
         },
       };
 
+      const handleCopy = () => {
+        const text = "afnanhussain2022@gamil.com";
+        navigator.clipboard.writeText(text);
+        setCopied(true);
+      };
+
 
   return (
     <div>
