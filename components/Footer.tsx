@@ -18,7 +18,9 @@ const Footer = () => {
           <a href="https://www.facebook.com/iamafnanhussain" target='_blank'>
             <Facebook size={30} className='bg-black p-1 rounded'/>
           </a>
+          <a href="https://x.com/MdAfnanHussain" target='_blank'>
             <Image src={x} alt='x' width={30} height={30} />
+          </a>
         </div>
     </div>
   )
