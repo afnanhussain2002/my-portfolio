@@ -14,9 +14,7 @@ const MainPage = () => {
       </section>
       <section className='mx-auto'>
 
-        <div className=' w-[1280px] h-96 bg-[url("../public/images/mainBg.jpg")] bg-cover mt-5'>
-          Main section
-        </div>
+       
 
       </section>
     </main>
