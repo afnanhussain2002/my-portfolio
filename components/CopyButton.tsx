@@ -31,7 +31,6 @@ const CopyButton = () => {
                 className={`absolute left-0 right-0 ml-auto mr-auto ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
               </button>
