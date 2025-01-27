@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import HeroSection from '@/components/HeroSection'
 import Profile from '@/components/Profile'
 import React from 'react'
 
@@ -14,7 +15,7 @@ const MainPage = () => {
       </section>
       <section className='mx-auto'>
 
-       
+       <HeroSection/>
 
       </section>
     </main>
