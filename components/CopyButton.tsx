@@ -1,5 +1,5 @@
 import { Copy } from 'lucide-react'
-import React from 'react'
+import React, { useState } from 'react'
 
 const CopyButton = () => {
     const [copied, setCopied] = useState(false);
