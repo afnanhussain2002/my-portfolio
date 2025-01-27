@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import Profile from '@/components/Profile'
+import TechStack from '@/components/TechStack'
 import React from 'react'
 
 
@@ -16,6 +17,7 @@ const MainPage = () => {
       <section className='mx-auto'>
 
        <HeroSection/>
+       <TechStack/>
 
       </section>
     </main>
