@@ -1,3 +1,4 @@
+import { Copy } from 'lucide-react'
 import React from 'react'
 
 const CopyButton = () => {
