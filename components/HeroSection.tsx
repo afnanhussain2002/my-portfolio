@@ -1,4 +1,6 @@
 import React from 'react'
+import tech from '../public/images/knowTech.png'
+import Image from 'next/image'
 
 const HeroSection = () => {
   return (
@@ -8,6 +10,7 @@ const HeroSection = () => {
             <button className='mt-5 bg-[#076871] p-2 rounded font-bold'>Copy My Email</button>
           </div>
           <div>
+            <Image src={tech} alt="tech" width={400} height={400} />
           </div>
         </div>
   )
