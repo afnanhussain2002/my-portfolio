@@ -23,6 +23,7 @@ const CopyButton = () => {
 
   return (
     <div>
+        <Lottie options={defaultOptions} height={200} width={400} />
         <button className='mt-5 bg-[#076871] px-3 py-2 rounded font-bold flex gap-2 items-center'><Copy/> Copy My Email</button>
     </div>
   )
