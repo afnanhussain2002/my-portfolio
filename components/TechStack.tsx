@@ -5,7 +5,7 @@ import ShimmerBg from './ShimmerBg'
 const TechStack = () => {
   return (
     <div className='w-96 h-96  flex justify-center items-center'>
-     <div className=' w-full h-full p-5 flex flex-col justify-center items-center space-y-1'>
+     <div className=' w-full h-full p-5 flex flex-col justify-center items-center space-y-4'>
         <ShimmerBg text='MongoDB'/>
         <div className='w-full flex justify-around'>
         <ShimmerBg text='NodeJS'/>
