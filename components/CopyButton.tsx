@@ -25,8 +25,16 @@ const CopyButton = () => {
 
   return (
     <div>
-        <Lottie options={defaultOptions} height={200} width={400} />
-        <button className='mt-5 bg-[#076871] px-3 py-2 rounded font-bold flex gap-2 items-center' onClick={handleCopy}><Copy/> Copy My Email</button>
+        
+        <button className='relative mt-5 bg-[#076871] px-3 py-2 rounded font-bold flex gap-2 items-center' onClick={handleCopy}><Copy/> {copied ? "Email is Copied!" : "Copy my email address"}
+        <div
+                className={`absolute left-0 right-0 ml-auto mr-auto ${copied ? "block" : "block"
+                  }`}
+              >
+                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                <Lottie options={defaultOptions} height={200} width={400} />
+              </div>
+              </button>
     </div>
   )
 }
