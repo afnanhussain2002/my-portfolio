@@ -1,6 +1,7 @@
 import { Copy } from 'lucide-react'
 import React, { useState } from 'react'
 import animationData from '../data/confetti.json';
+import Lottie from 'react-lottie';
 
 const CopyButton = () => {
     const [copied, setCopied] = useState(false);
