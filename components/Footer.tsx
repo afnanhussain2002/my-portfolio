@@ -12,7 +12,9 @@ const Footer = () => {
           
             <Linkedin size={30} className='bg-black p-1 rounded'/>
           </a>
+          <a href="https://github.com/afnanhussain2002" target='_blank'>
             <Github size={30} className='bg-black p-1 rounded'/>
+          </a>
             <Facebook size={30} className='bg-black p-1 rounded'/>
             <Image src={x} alt='x' width={30} height={30} />
         </div>
