@@ -7,6 +7,8 @@ import React from 'react'
 
 const MainPage = () => {
   return (
+    <>
+    
     <main className='flex flex-col md:flex-row'>
       <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover flex flex-col justify-between'>
        <Profile />
@@ -17,12 +19,11 @@ const MainPage = () => {
       <section className='mx-auto'>
 
        <HeroSection/>
+       <Projects/>
       </section>
 
-      <section>
-        <Projects/>
-      </section>
     </main>
+    </>
   )
 }
 
