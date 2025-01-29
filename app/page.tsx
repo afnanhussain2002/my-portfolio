@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import Profile from '@/components/Profile'
+import Projects from '@/components/Projects'
 import React from 'react'
 
 
@@ -16,6 +17,10 @@ const MainPage = () => {
       <section className='mx-auto'>
 
        <HeroSection/>
+      </section>
+
+      <section>
+        <Projects/>
       </section>
     </main>
   )
