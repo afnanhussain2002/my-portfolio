@@ -17,5 +17,13 @@ export const projects = [
         iconLists:["/public/images/next.svg", "/public/images/ts.svg", "/public/images/tail.svg","/public/images/mongoDB.svg"],
         link:"https://clientecho.vercel.app/"
     },
+    {
+        id: 3,
+        title:"PlayPlex",
+        des:"When i was new in Mern Stack, I build that website and practice some design and make a grate UI for it.",
+        img:"/public/images/Portfolio3.png",
+        iconLists:["/public/images/re.svg", "/public/images/js.webp", "/public/images/nodeJs.svg", "/public/images/tail.svg","/public/images/mongoDB.svg"],
+        link:"https://play-plex-bf61f.web.app/"
+    },
     
 ]
