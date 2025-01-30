@@ -8,7 +8,7 @@ const Projects = () => {
 <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10'>
    {projects.map((project) => (
      <div
-     className=" flex flex-col items-center justify-center w-96"
+     className=" flex flex-col items-center justify-center text-left w-96"
      key={project.id}
      >
     <div className="relative flex items-center justify-center w-96  overflow-hidden h-[20vh] lg:h-[30vh] ">
@@ -29,10 +29,6 @@ const Projects = () => {
               </h1>
               <p
                 className="font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
               >
                 {project.des}
               </p>
