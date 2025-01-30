@@ -4,7 +4,7 @@ export const projects = [
     {
         id: 1,
         title:"Making Chip",
-        des:"Boost Your Website's Performance with using our tools. You can optimize, format, and restore your images with just a few clicks.",
+        des:"You can optimize, format, and restore your images with just a few clicks.",
         img:"/images/Portfolio1.png",
         iconLists:["/images/next.svg", "/images/ts.svg", "/images/tail.svg","/images/cloudinary.png"],
         link:"https://www.makingchip.com"
