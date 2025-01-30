@@ -11,7 +11,19 @@ const Projects = () => {
      className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
      key={project.id}
      >
-
+    <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                <div
+                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                  style={{ backgroundColor: "#13162D" }}
+                >
+               
+                </div>
+                <img
+                  src={project.img}
+                  alt="cover"
+                  className="z-10 absolute bottom-0"
+                />
+              </div>
      </div>
    ))}
 </div>
