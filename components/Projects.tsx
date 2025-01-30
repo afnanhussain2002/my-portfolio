@@ -16,7 +16,7 @@ const Projects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-               <img src="/images/mainBg.jpg" alt="bgimg" />
+               <img src="/images/mainBg.jpg" alt="bgImg" />
 
                 </div>
                 <img
@@ -33,6 +33,9 @@ const Projects = () => {
               >
                 {project.des}
               </p>
+            <div className='flex items-center justify-between mt-7 mb-3'>
+
+            </div>
      </div>
    ))}
 </div>
