@@ -16,7 +16,8 @@ const Projects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-               
+               <img src="/images/mainBg.jpg" alt="bgimg" />
+
                 </div>
                 <img
                   src={project.img}
