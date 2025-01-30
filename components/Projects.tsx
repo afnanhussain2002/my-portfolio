@@ -37,7 +37,7 @@ const Projects = () => {
           transform: `translateX(-${5 * index + 2}px)`,
         }}
        >
-         <img src={icon} alt="icon5" className="p-2 hover:scale-150" />
+         <img src={icon} alt="icon5" className="p-2 hover:scale-150 hover:rotate-12" />
        </div>
        ))}
          </div>
