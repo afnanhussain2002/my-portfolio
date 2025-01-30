@@ -3,7 +3,7 @@
 export const projects = [
     {
         id: 1,
-        title:"Making Chip - AI Image Tools",
+        title:"Making Chip",
         des:"Boost Your Website's Performance with using our tools. You can optimize, format, and restore your images with just a few clicks.",
         img:"/images/Portfolio1.png",
         iconLists:["/images/next.svg", "/images/ts.svg", "/images/tail.svg","/images/cloudinary.png"],
@@ -11,7 +11,7 @@ export const projects = [
     },
     {
         id: 2,
-        title:"Client Echo - Where your identity remains a secret.",
+        title:"Client Echo",
         des:"Clientecho is a platform designed to allow users to provide anonymous feedback, creating an open and safe space for clients to express their thoughts freely.",
         img:"/images/Portfolio2.png",
         iconLists:["/images/next.svg", "/images/ts.svg", "/images/tail.svg","/images/mongoDB.svg"],
