@@ -13,13 +13,6 @@ const Projects = () => {
      key={project.id}
      >
     <div className="relative flex items-center justify-center w-80  overflow-hidden h-[22vh] ">
-            {/*     <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-               <img src="/images/mainBg.jpg" alt="bgImg" />
-
-                </div> */}
                 <img
                   src={project.img}
                   alt="cover"
@@ -52,7 +45,7 @@ const Projects = () => {
                   <p className="flex text-sm text-purple">
                     Check Live Site
                   </p>
-                  <MoveUpRight className="ms-3 text-white" />
+                  <MoveUpRight className="text-white" />
                 </div>
             </div>
      </div>
