@@ -34,7 +34,9 @@ const Projects = () => {
                 {project.des}
               </p>
             <div className='flex items-center justify-between mt-7 mb-3'>
+         <div className='flex items-center'>
 
+         </div>
             </div>
      </div>
    ))}
