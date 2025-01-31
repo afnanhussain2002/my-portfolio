@@ -9,9 +9,10 @@ const Projects = () => {
         <h3 className='text-3xl font-bold'>Selection of recent projects</h3>
 <div className='flex flex-wrap items-center justify-center p-4 gap-16 '>
    {projects.map((project) => (
+    <a href={project.link} target='_blank'  key={project.id}>
      <div
      className=" flex flex-col items-center justify-center text-left w-96 border p-4 rounded-md cursor-pointer hover:animate-shimmer"
-     key={project.id}
+    
      >
     <div className="relative flex items-center justify-center w-80  overflow-hidden h-[22vh] ">
                 <img
@@ -50,6 +51,7 @@ const Projects = () => {
                 </div>
             </div>
      </div>
+      </a>
    ))}
 </div>
     </div>
