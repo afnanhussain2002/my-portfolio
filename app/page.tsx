@@ -11,7 +11,7 @@ const MainPage = () => {
     <>
     
     <main className='flex flex-col md:flex-row'>
-      <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover flex flex-col justify-between'>
+      <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover flex flex-col justify-between p-2'>
        <Profile />
        <AboutMe/>
        <div className='mb-5'>
