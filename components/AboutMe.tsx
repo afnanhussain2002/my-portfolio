@@ -1,6 +1,8 @@
 "use client"; // Ensures it runs only on the client side
 
 import { useRef, useEffect } from "react";
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+const words = "Hey, I’m Afnan Hussain from Bangladesh! I’ve been exploring full-stack web development for the past year. I love learning new things and turning ideas into projects. Check out my LinkedIn posts to see what I’m up to! 🚀"
 
 const AboutMe = () => {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -61,10 +63,9 @@ const AboutMe = () => {
         <div ref={glowRef} className="glow opacity-0 transition-opacity duration-300 absolute inset-0 rounded-2xl"></div>
         <div ref={contentRef} className=" p-6 flex flex-col h-full justify-between relative z-10">
           <div>
-            <h2 className="text-2xl font-bold text-white mb-2">About Me</h2>
-            <p className="text-gray-200 text-sm">
-            Hey, I’m Afnan Hussain from Bangladesh! I’ve been exploring full-stack web development for the past year. I love learning new things and turning ideas into projects. Check out my LinkedIn posts to see what I’m up to! 🚀
-            </p>
+            <h2 className="text-2xl font-bold text-white mb-2"><TextGenerateEffect duration={2} filter={false} words={"About Me"} /></h2>
+            <TextGenerateEffect duration={2} filter={false} words={words} className="text-sm"/>
+            
           </div>
         </div>
       </div>
