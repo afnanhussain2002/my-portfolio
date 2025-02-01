@@ -9,7 +9,7 @@ const AboutMe = () => {
       </p>
       <div className="text-neutral-200 mt-4 relative z-20">
         Follow these steps to secure your account:
-        <ul className="list-none  mt-2">
+        <ul className="list-none mt-2">
           <li>Set a strong password</li>
           <li>Use a unique username</li>
           <li>Change your password periodically</li>
