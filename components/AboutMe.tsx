@@ -58,7 +58,7 @@ const AboutMe = () => {
     <div className="flex items-center justify-center overflow-hidden">
       <div
         ref={cardRef}
-        className="tilt-card bg-gradient-to-br from-[#076871] to-[#4B9197] rounded-2xl shadow-2xl relative cursor-pointer transition-all duration-300 ease-out hover:scale-105"
+        className="tilt-card bg-gradient-to-b from-[#076871] to-transparent rounded-2xl shadow-2xl relative cursor-pointer transition-all duration-300 ease-out hover:scale-105"
       >
         <div ref={glowRef} className="glow opacity-0 transition-opacity duration-300 absolute inset-0 rounded-2xl"></div>
         <div ref={contentRef} className=" p-6 flex flex-col h-full justify-between relative z-10">
