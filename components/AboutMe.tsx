@@ -31,8 +31,8 @@ const AboutMe = () => {
       glow.style.backgroundImage = `
         radial-gradient(
           circle at ${x}px ${y}px,
-          #ffffff44,
-          #0000000f
+          #076871,
+          #4B9197
         )
       `;
     };
@@ -56,7 +56,7 @@ const AboutMe = () => {
     <div className="bg-gray-900 h-screen flex items-center justify-center overflow-hidden">
       <div
         ref={cardRef}
-        className="tilt-card w-80 h-96 bg-gradient-to-br from-purple-700 to-pink-500 rounded-2xl shadow-2xl relative cursor-pointer transition-all duration-300 ease-out hover:scale-105"
+        className="tilt-card w-80 h-96 bg-gradient-to-br from-[#076871] to-[#4B9197] rounded-2xl shadow-2xl relative cursor-pointer transition-all duration-300 ease-out hover:scale-105"
       >
         <div ref={glowRef} className="glow opacity-0 transition-opacity duration-300 absolute inset-0 rounded-2xl"></div>
         <div ref={contentRef} className="tilt-card-content p-6 flex flex-col h-full justify-between relative z-10">
