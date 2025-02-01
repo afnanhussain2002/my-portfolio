@@ -2,6 +2,7 @@ import AboutMe from '@/components/AboutMe'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import Profile from '@/components/Profile'
+import ProfileCard from '@/components/ProfileCard'
 import Projects from '@/components/Projects'
 import React from 'react'
 
@@ -12,7 +13,7 @@ const MainPage = () => {
     
     <main className='flex flex-col md:flex-row'>
       <section className='w-72 h-screen bg-[url("../public/images/mainBg.jpg")] bg-cover flex flex-col justify-between p-2'>
-       <Profile />
+       <ProfileCard />
        <AboutMe/>
        <div className='mb-5'>
        <Footer/>
