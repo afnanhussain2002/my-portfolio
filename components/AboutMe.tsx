@@ -53,27 +53,18 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="bg-gray-900 h-screen flex items-center justify-center overflow-hidden">
+    <div className="flex items-center justify-center overflow-hidden">
       <div
         ref={cardRef}
-        className="tilt-card w-80 h-96 bg-gradient-to-br from-[#076871] to-[#4B9197] rounded-2xl shadow-2xl relative cursor-pointer transition-all duration-300 ease-out hover:scale-105"
+        className="tilt-card bg-gradient-to-br from-[#076871] to-[#4B9197] rounded-2xl shadow-2xl relative cursor-pointer transition-all duration-300 ease-out hover:scale-105"
       >
         <div ref={glowRef} className="glow opacity-0 transition-opacity duration-300 absolute inset-0 rounded-2xl"></div>
-        <div ref={contentRef} className="tilt-card-content p-6 flex flex-col h-full justify-between relative z-10">
+        <div ref={contentRef} className=" p-6 flex flex-col h-full justify-between relative z-10">
           <div>
-            <h2 className="text-3xl font-bold text-white mb-2">Quantum Leap</h2>
-            <p className="text-gray-200">
-              Experience the future of technology with our revolutionary quantum computing solution.
+            <h2 className="text-2xl font-bold text-white mb-2">About Me</h2>
+            <p className="text-gray-200 text-sm">
+            Hey, I’m Afnan Hussain from Bangladesh! I’ve been exploring full-stack web development for the past year. I love learning new things and turning ideas into projects. Check out my LinkedIn posts to see what I’m up to! 🚀
             </p>
-          </div>
-          <div className="space-y-4">
-            <div className="bg-white bg-opacity-20 rounded-lg p-3">
-              <div className="text-xs text-gray-300 uppercase">Processing Power</div>
-              <div className="text-2xl font-bold text-white">100 Qubits</div>
-            </div>
-            <button className="w-full py-2 bg-white text-purple-700 rounded-lg font-semibold transform transition hover:scale-105 active:scale-95">
-              Explore Now
-            </button>
           </div>
         </div>
       </div>
