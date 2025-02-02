@@ -3,10 +3,12 @@ import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import ProfileCard from '@/components/ProfileCard'
 import Projects from '@/components/Projects'
-import React from 'react'
+import React, { useState } from 'react'
 
 
 const MainPage = () => {
+
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <>
     
