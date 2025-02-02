@@ -20,7 +20,6 @@ const MainPage = () => {
        </div>
       </section>
       <section className='mx-auto'>
-
        <HeroSection/>
        <Projects/>
       </section>
