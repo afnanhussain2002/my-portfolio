@@ -24,7 +24,7 @@ const ProfileCard = () => {
           <h2 className="font-semibold text-white">Afnan Hussain</h2>
           <p className="text-white">Full Stack Developer</p>
         </div>
-        <div className="font-bold flex gap-5 text-sm border-b-2 p-5 text-white">
+        <div className=" font-bold flex justify-center gap-5 text-sm border-b-2 p-5 text-white lg:justify-normal">
         <div className="mt-5">
           <p>Residence:</p>
           <p>City:</p>
