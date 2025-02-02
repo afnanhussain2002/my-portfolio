@@ -1,7 +1,7 @@
 import { projects } from "@/data";
 import React from "react";
 import { MoveUpRight } from "lucide-react";
-import { Vortex } from "./ui/vortex";
+
 
 const Projects = () => {
   return (
