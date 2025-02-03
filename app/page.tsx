@@ -5,7 +5,8 @@ import ProfileCard from '@/components/ProfileCard'
 import Projects from '@/components/Projects'
 import React from 'react'
 
-
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 const MainPage = () => {
   return (
     <>
