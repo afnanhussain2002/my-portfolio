@@ -3,8 +3,10 @@ import React from "react";
 import { MoveUpRight } from "lucide-react";
 
 
+
 const Projects = () => {
   return (
+
     <div className="mt-5 text-center">
       <h3 className="text-3xl font-bold">Selection of recent projects</h3>
       <div
@@ -52,6 +54,8 @@ const Projects = () => {
         ))}
       </div>
     </div>
+ 
+
   );
 };
 
