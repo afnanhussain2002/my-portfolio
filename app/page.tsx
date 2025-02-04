@@ -26,6 +26,7 @@ const MainPage = () => {
       </section>
 
     </main>
+    {/* This is the main page of the website. It contains two sections, the first one is the sidebar with the profile card, about me and the footer. The second section contains the hero section and the projects section. The width of the sections are set to 72 on large screens and the height is set to full screen. The background image is set to the hero image and it is set to cover the full screen. The padding is set to 2 and the space between the elements is set to 5. The margin bottom of the footer is set to 5. */}
     </>
   )
 }
